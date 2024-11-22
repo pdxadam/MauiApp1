@@ -12,7 +12,7 @@ public class MainViewModel : INotifyPropertyChanged
         set
         {
             text = value;
-            OnPropertyChanged(nameof(Text));
+            OnPropertyChanged(nameof(Text));//TODO: I am here.
         }
     }
     public event PropertyChangedEventHandler? PropertyChanged;
